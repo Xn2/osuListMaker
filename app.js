@@ -45,7 +45,7 @@ function writeNewRow(mapdata) {
 					diff: mapdata.version,
 					creator: mapdata.creator,
 					sr: mapdata.difficultyrating.substring(0, 4),
-					lien: 'https://osu.ppy.sh/b/' + mapdata.beatmap_id,
+					link: 'https://osu.ppy.sh/b/' + mapdata.beatmap_id,
 					osudirect: 'osu://dl/' + mapdata.beatmapset_id
 				},
 				(err, row) => {
