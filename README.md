@@ -16,3 +16,6 @@ Make beatmap lists directly in Google Sheets from inside osu!
 
 ## Usage
 Hit CTRL + L in osu! to save the currently playing map to the spreadsheet, this even works in the song select menu.
+
+## Compatibility
+This program is currently for Windows only. Linux and Mac will NOT be supported, even in the future.
