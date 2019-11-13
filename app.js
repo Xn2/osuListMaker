@@ -1,11 +1,9 @@
 const axios = require('axios');
 const fs = require('fs');
 const iohook = require('iohook');
-const ps = require('ps-node');
 const sheets = require('google-spreadsheet');
 const config = require('./config.json');
 const creds = require('./googleapicreds.json');
-const async = require('async');
 
 const doc = new sheets(config.spreadsheetid);
 let sheet;
